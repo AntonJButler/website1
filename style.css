@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+
+/* This is a comment  */
+
+/* # represents "ID" in HTML */
+#navbar{
+    display: flex;
+    background-color: rgba(184, 184, 184, 0.466);
+    justify-content: space-evenly;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+#navbar a:hover{
+    color: rgb(251, 255, 0)
+}
+
+h1{
+    background-color: rgba(184, 184, 184, 0.466);
+    background-size: 100px;
+    background-size: contain ;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+h2{
+    background-color: rgba(184, 184, 184, 0.466);
+    background-size: 100px;
+    background-size: contain ;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+h3{
+    background-color: rgba(184, 184, 184, 0.466);
+    background-size: 100px;
+    background-size: contain ;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+h4{
+    background-color: rgba(184, 184, 184, 0.466);
+    background-size: 100px;
+    background-size: contain ;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+p{
+    display: flex;
+    background-color: rgba(184, 184, 184, 0.466);
+    background-size: 100px;
+    background-size: contain ;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif ;
+    justify-content:flex-start;
+}
+
+.center{
+    text-align: center;
+}
+
+.large{
+    font-size: 100px;
+}
+
+.med{
+    font-size: 50px;
+}
+
+.small{
+    font-size: 25px;
+}
+
+/* . represents "class" in HTML */
+.home{
+    background-image:url(star-wars-death-star-at-at-space-wallpaper-preview.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: fill;
+    color: rgb(251, 255, 0);
+}
+
+.lightsabres{
+    background-image:url(CrystalCave-CW14.webp);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: fill;
+    color: rgb(255, 166, 0);
+}
+
+.Darkside{
+    background-image:url(Sith.webp);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: fill;
+    color: rgb(208, 45, 45);
+}
+
+.Lightside{
+    background-image:url(Light\ side.jpg);
+    background-color: rgba(184, 184, 184, 0.466);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: fill;
+    color: rgb(0, 179, 255);
+}
+
+.Fanart{
+    background-image:url(Fan\ image.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: fill;
+    color: rgb(111, 0, 255);
+}
